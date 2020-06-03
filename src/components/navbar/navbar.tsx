@@ -9,14 +9,14 @@ const navbar = () => {
         <img className="header__left-home" src={logo} alt="logo" />
       </Link>
       <div className="header__right">
-        <Link to="/vancouver" className="header__right-link">
-          <h3 className="header__right-item">PLACEHOLDER</h3>
+        <Link to="/shop" className="header__right-link">
+          <h3 className="header__right-item">Shop</h3>
         </Link>
-        <Link to="/europe" className="header__right-link">
-          <h3 className="header__right-item">PLACEHOLDER</h3>
+        <Link to="/about" className="header__right-link">
+          <h3 className="header__right-item">About</h3>
         </Link>
-        <Link to="/tokyo" className="header__right-link">
-          <h3 className="header__right-item">PLACEHOLDER</h3>
+        <Link to="/profile" className="header__right-link">
+          <h3 className="header__right-item">Profile</h3>
         </Link>
       </div>
     </div>
