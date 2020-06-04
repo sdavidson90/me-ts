@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "PLACEHOLDER";
+import logo from "../../../public/logo192.png";
 import { Link } from "react-router-dom";
 
-const navbar = () => {
+const navbar: React.FC = () => {
   return (
     <div className="header">
       <Link to="/" className="header__left">

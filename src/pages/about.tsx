@@ -1,7 +1,11 @@
 import React from "react";
 
-const about = () => {
-  return <div>hey</div>;
+const about: React.FC = () => {
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
 };
 
 export default about;

@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/hero/hero";
 
-const home = () => {
+const home: React.FC = () => {
   return (
     <div>
       <Hero />

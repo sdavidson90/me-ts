@@ -1,7 +1,11 @@
 import React from "react";
 
-const hero = () => {
-  return <div></div>;
+const hero: React.FC = () => {
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
 };
 
 export default hero;

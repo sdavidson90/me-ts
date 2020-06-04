@@ -1,7 +1,11 @@
 import React from "react";
 
-const shop = () => {
-  return <div>hey</div>;
+const shop: React.FC = () => {
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
 };
 
 export default shop;
