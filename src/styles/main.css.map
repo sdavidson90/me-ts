@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,KAAK;CACnB;;ACLD,+BAA+B;AAO/B,2BAA2B;AAO3B,gDAAgD;AEdhD,UAAU;EACR,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,kEAAkE;;;AAGzE,UAAU;EACR,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,6DAA6D;;;AAGpE,UAAU;EACR,WAAW,EAAE,aAAa;EAC1B,GAAG,EAAE,6DAA6D",
+    "sources": [
+        "main.scss",
+        "partials/_breakpoints.scss",
+        "partials/_colors.scss",
+        "partials/_fonts.scss",
+        "../components/navbar/_navbar.scss",
+        "../components/hero/_hero.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
