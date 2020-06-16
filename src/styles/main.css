@@ -11,16 +11,50 @@
 /* media query for high pixel density desktops*/
 @font-face {
   font-family: "avenir-regular";
-  src: url("../assets/fonts/AvenirNextProLT/AvenirNextLTPro-Regular.otf");
+  src: url("../assets/fonts/AvenirNextLTPro-Regular.otf");
 }
 
 @font-face {
   font-family: "avenir-demi";
-  src: url(../assets/fonts/AvenirNextProLT/AvenirNextLTPro-Demi.otf);
+  src: url("../assets/fonts/AvenirNextLTPro-Demi.otf");
 }
 
 @font-face {
   font-family: "avenir-bold";
-  src: url(../assets/fonts/AvenirNextProLT/AvenirNextLTPro-Bold.otf);
+  src: url("../assets/fonts/AvenirNextLTPro-Bold.otf");
+}
+
+.header {
+  padding: 0 6.25rem;
+  height: 6.25rem;
+  background-color: #7e2e7e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "avenir-reg";
+  font-size: 20px;
+}
+
+.header__left-home {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__right-link {
+  margin-left: 5rem;
+  color: black;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

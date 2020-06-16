@@ -1,0 +1,24 @@
+.header {
+  padding: 0 6.25rem;
+  height: 6.25rem;
+  background-color: rgb(126, 46, 126);
+  display: flex;
+  justify-content: space-between;
+  font-family: "avenir-reg";
+  font-size: 20px;
+  &__left {
+    &-home {
+      width: 6.25rem;
+      height: 6.25rem;
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    &-link {
+      margin-left: 5rem;
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
