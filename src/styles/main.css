@@ -24,37 +24,41 @@
   src: url("../assets/fonts/AvenirNextLTPro-Bold.otf");
 }
 
-.header {
-  padding: 0 6.25rem;
-  height: 6.25rem;
-  background-color: #7e2e7e;
+.banner {
+  background-color: white;
+  height: 212px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: "avenir-reg";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  height: 50px;
+  background-color: white;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__link {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-}
-
-.header__left-home {
-  width: 6.25rem;
-  height: 6.25rem;
-}
-
-.header__right {
+  margin: 0 20px;
+  color: black;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.header__right-link {
-  margin-left: 5rem;
-  color: black;
-  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
