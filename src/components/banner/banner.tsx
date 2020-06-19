@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo/f7f8ca5a-0f70-43f3-aa33-3fb225ce187b_200x200.png";
+import logo from "../../assets/logo/7efcd702-a492-4237-bb3c-d88bd20cadc7_200x200.png";
 import { Link } from "react-router-dom";
 
 const banner: React.FC = () => {
