@@ -1,0 +1,13 @@
+.insta {
+  margin-bottom: 100px;
+  &__title {
+    font-family: "main";
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    &-link {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
