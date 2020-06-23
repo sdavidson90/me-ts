@@ -1,6 +1,6 @@
 import React from "react";
 
-const instaGallery: React.FC = () => {
+const InstaGallery: React.FC = () => {
   return (
     <div className="insta">
       <a
@@ -9,7 +9,7 @@ const instaGallery: React.FC = () => {
       >
         Follow @ThreadsByScott on InstaGram
       </a>
-      <div className="insta__item">
+      <a href="https://www.instagram.com" className="insta__item">
         <div className="insta__item-img insta__item-img-one"></div>
         <div className="insta__item-img insta__item-img-two"></div>
         <div className="insta__item-img insta__item-img-three"></div>
@@ -19,9 +19,9 @@ const instaGallery: React.FC = () => {
         <div className="insta__item-img insta__item-img-seven"></div>
         <div className="insta__item-img insta__item-img-eight"></div>
         <div className="insta__item-img insta__item-img-nine"></div>
-      </div>
+      </a>
     </div>
   );
 };
 
-export default instaGallery;
+export default InstaGallery;

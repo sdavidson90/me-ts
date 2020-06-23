@@ -244,4 +244,9 @@
 .insta__item-img-nine {
   background-image: url("../assets/insta/rayyu-maldives-photographer-FxlajyUlzdc-unsplash.jpg");
 }
+
+.footer {
+  height: 330px;
+  background-color: black;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const navbar: React.FC = () => {
+const Navbar: React.FC = () => {
   return (
     <div className="header">
       <Link to="/" className="header__link">
@@ -20,4 +20,4 @@ const navbar: React.FC = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

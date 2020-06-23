@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "../components/hero/hero";
-import Carousel from "../components/carousel/carousel";
-import InstaGallery from "../components/instaGallery/instaGallery";
+import Hero from "../components/hero/Hero";
+import Carousel from "../components/carousel/Carousel";
+import InstaGallery from "../components/instaGallery/InstaGallery";
 
-const home: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div>
       <Hero />
@@ -13,4 +13,4 @@ const home: React.FC = () => {
   );
 };
 
-export default home;
+export default Home;

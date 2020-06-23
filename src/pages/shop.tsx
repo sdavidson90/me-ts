@@ -1,6 +1,6 @@
 import React from "react";
 
-const shop: React.FC = () => {
+const Shop: React.FC = () => {
   return (
     <div>
       <div>SHOP</div>
@@ -8,4 +8,4 @@ const shop: React.FC = () => {
   );
 };
 
-export default shop;
+export default Shop;

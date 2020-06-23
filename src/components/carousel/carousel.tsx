@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const carousel = () => {
+const Carousel = () => {
   return (
     <div className="clothing">
       <div className="clothing__title">New Arrivals</div>
@@ -17,4 +17,4 @@ const carousel = () => {
   );
 };
 
-export default carousel;
+export default Carousel;
