@@ -167,6 +167,7 @@
 
 .insta {
   margin-bottom: 100px;
+  margin: 0 245px;
 }
 
 .insta__title {
@@ -183,5 +184,64 @@
 .insta__title-link {
   text-decoration: none;
   color: black;
+}
+
+.insta__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.insta__item-img {
+  width: 275px;
+  height: 216px;
+  margin: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 3px 3px lightgrey;
+          box-shadow: 5px 3px 3px lightgrey;
+}
+
+.insta__item-img-one {
+  background-image: url("../assets/insta/chermiti-mohamed-h6ajwqvCKsY-unsplash.jpg");
+}
+
+.insta__item-img-two {
+  background-image: url("../assets/insta/chermiti-mohamed-RWRXLHZy38A-unsplash.jpg");
+}
+
+.insta__item-img-three {
+  background-image: url("../assets/insta/chermiti-mohamed-rZC1AuyYHE4-unsplash.jpg");
+}
+
+.insta__item-img-four {
+  background-image: url("../assets/insta/elvis-ray-OjXORYIGlwA-unsplash.jpg");
+}
+
+.insta__item-img-five {
+  background-image: url("../assets/insta/laura-chouette-5qobDXsuw3U-unsplash.jpg");
+}
+
+.insta__item-img-six {
+  background-image: url("../assets/insta/laura-chouette-8BIWYVu0vE0-unsplash.jpg");
+}
+
+.insta__item-img-seven {
+  background-image: url("../assets/insta/laura-chouette-NcD7dtDj_Sc-unsplash.jpg");
+}
+
+.insta__item-img-eight {
+  background-image: url("../assets/insta/mahmudul-hasan-shaon-vOfUPN3yrWc-unsplash.jpg");
+}
+
+.insta__item-img-nine {
+  background-image: url("../assets/insta/rayyu-maldives-photographer-FxlajyUlzdc-unsplash.jpg");
 }
 /*# sourceMappingURL=main.css.map */
