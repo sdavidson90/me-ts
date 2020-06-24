@@ -166,8 +166,7 @@
 }
 
 .insta {
-  margin-bottom: 100px;
-  margin: 0 245px;
+  margin: 0 245px 50px;
 }
 
 .insta__title {
@@ -198,9 +197,9 @@
 }
 
 .insta__item-img {
-  width: 275px;
+  width: calc(33% - 20px);
   height: 216px;
-  margin: 20px;
+  margin-top: 20px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
