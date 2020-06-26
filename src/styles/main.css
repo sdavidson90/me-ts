@@ -87,10 +87,9 @@
   padding-bottom: 20px;
 }
 
-.clothing__item-img-one {
+.clothing__item-img {
   width: 186px;
   height: 216px;
-  background-image: url("../assets/clothing/adrian-ordonez-xrvWzRVwAmM-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,71 +97,30 @@
   margin: 0 5px;
   -webkit-box-shadow: 5px 3px 3px lightgrey;
           box-shadow: 5px 3px 3px lightgrey;
+}
+
+.clothing__item-img-one {
+  background-image: url("../assets/clothing/adrian-ordonez-xrvWzRVwAmM-unsplash.jpg");
 }
 
 .clothing__item-img-two {
-  width: 186px;
-  height: 216px;
   background-image: url("../assets/clothing/demorris-byrd-AZko4PDqYsI-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 6px;
-  margin: 0 5px;
-  -webkit-box-shadow: 5px 3px 3px lightgrey;
-          box-shadow: 5px 3px 3px lightgrey;
 }
 
 .clothing__item-img-three {
-  width: 186px;
-  height: 216px;
   background-image: url("../assets/clothing/faith-yarn-Wr0TpKqf26s-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 6px;
-  margin: 0 5px;
-  -webkit-box-shadow: 5px 3px 3px lightgrey;
-          box-shadow: 5px 3px 3px lightgrey;
 }
 
 .clothing__item-img-four {
-  width: 186px;
-  height: 216px;
   background-image: url("../assets/clothing/haryo-setyadi-acn5ERAeSb4-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 6px;
-  margin: 0 5px;
-  -webkit-box-shadow: 5px 3px 3px lightgrey;
-          box-shadow: 5px 3px 3px lightgrey;
 }
 
 .clothing__item-img-five {
-  width: 186px;
-  height: 216px;
   background-image: url("../assets/clothing/ian-dooley-wtFc4o4Bir8-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 6px;
-  margin: 0 5px;
-  -webkit-box-shadow: 5px 3px 3px lightgrey;
-          box-shadow: 5px 3px 3px lightgrey;
 }
 
 .clothing__item-img-six {
-  width: 186px;
-  height: 216px;
   background-image: url("../assets/clothing/taylor-dG4Eb_oC5iM-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 6px;
-  margin: 0 5px;
-  -webkit-box-shadow: 5px 3px 3px lightgrey;
-          box-shadow: 5px 3px 3px lightgrey;
 }
 
 .insta {
