@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Carousel = () => {
+const Carousel: React.FC = () => {
   return (
     <div className="clothing">
       <div className="clothing__title">New Arrivals</div>
